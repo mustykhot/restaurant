@@ -1,0 +1,300 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Vesper Libre', serif;
+    color: rgb(207,19,107);
+}
+
+header{
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(207,19,107);
+    font-size: 20px;
+    margin: 0 10px;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+
+}
+.strapline-container{
+    border: 2px solid rgb(207,19,107);
+    width: 90%;
+    height: 80%;
+    margin: auto auto;
+    text-align: center;
+    background-image: url("./images/image1.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.main-strapline{
+    color: rgb(207,19,107);
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 50px 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.second-strapline{
+    color:#ffffdd;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.section-title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(207,19,107);
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+
+}
+
+.about-section{
+    width: 100vw;
+    
+   
+}
+
+.about-container{
+    
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+.left-box{
+    width: 45%;
+    text-align: justify;
+    line-height: 220%;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+
+   
+    
+}
+.right-box{
+    
+    width: 40%;
+    
+    margin-left: 6%;
+
+}
+.grid-image-one{
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/toronto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grid-image-two{
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/coffe1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grid-image-three{
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/coffe2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grid-image-four{
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/donut2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.top-row, .bottom-row{
+    display: flex;
+    flex-direction: row;
+}
+.donut-section{
+    width: 100vw;
+}
+.image-container{
+    width: 100%;
+    
+}
+.row-one, .row-two, .row-three{
+   
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.grid-item{
+    
+    width: 30%;
+    height: 310px;
+    
+    margin: 15px;
+}
+#donut-one{
+    background-image: url(./images/donut-one.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-two{
+    background-image: url(./images/donut-two.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-three{
+    background-image: url(./images/donut-three.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-four{
+    background-image: url(./images/donut-one.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#donut-five{
+    background-image: url(./images/donut-five.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-six{
+    background-image: url(./images/donut-six.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-seven{
+    background-image: url(./images/donut-seven.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-eight{
+    background-image: url(./images/donut-eight.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-nine{
+    background-image: url(./images/donut-nine.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.stores-section{
+    width: 100vw;
+}
+.stores-container{
+    
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.store-div{
+   
+    width: 30%;
+    height: 240px;
+    margin: 20px;
+    text-align: center;
+
+}
+h4{
+    font-size: 150%;
+}
+.contact-section{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(207,19,107);
+    text-align: center;
+    color: #ffffdd;
+}
+.contact-title{
+    margin: 25px 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+.email{
+    font-size: 130%;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    margin: 0 auto;
+}
+.social-media-icon{
+    margin: 0 7.5px;
+
+}
+
+
+@media only screen and (max-width:840px){
+    .stores-container,.about-container,.row-one,.row-two,.row-three,.top-row,.bottom-row{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .store-div,.grid-item,.grid-image-one,.grid-image-two,.grid-image-three,.grid-image-four,.left-box,.right-box{
+        width: 100%;
+    }
+
+    .main-strapline{
+        font-size: 50px;
+    }
+    .second-strapline{
+        font-size: 20px;
+
+    }
+
+}
+@media only screen and (max-width:400px){
+    .second-strapline{
+        font-size: 20px;
+
+    }
+    
+    .main-strapline{
+        font-size: 30px;
+    }
+    .email{
+        font-size: 100%;
+    }
+}
+
